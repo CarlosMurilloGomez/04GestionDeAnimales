@@ -8,8 +8,8 @@ namespace _04GestionDeAnimales
 {
     internal enum Edad
     {
-        JOVEN,
-        ADULTO,
-        VIEJO
+        joven,
+        adulto,
+        viejo
     }
 }
