@@ -10,7 +10,6 @@ namespace _04GestionDeAnimales
     internal class GestorAnimales
     {
         private ArrayList listaAnimales = new ArrayList();
-
         public bool añadirAnimal(Animal animalNuevo)
         {
             if (buscarAnimal(animalNuevo.Nombre) == null)

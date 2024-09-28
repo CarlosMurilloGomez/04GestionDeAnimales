@@ -10,7 +10,9 @@ namespace _04GestionDeAnimales
     {
         static void Main(string[] args)
         {
-            
+            MenuGestorAnimales menuGestorAnimales = new MenuGestorAnimales();
+            menuGestorAnimales.iniciar();
+            Console.ReadKey();
         }
     }
 }
