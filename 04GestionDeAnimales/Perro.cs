@@ -9,13 +9,13 @@ namespace _04GestionDeAnimales
     internal class Perro : Animal
     {
         Boolean pastor;
-        public Perro(String Nombre, Edad Edad, bool pastor)
+        public Perro(string Nombre, Edad Edad, bool pastor)
         {
             this.Nombre = Nombre;
             this.Edad = Edad;
             this.pastor = pastor;
         }
-        public override String emitirSonido()
+        public override string emitirSonido()
         {
             return "Guau";
         }
