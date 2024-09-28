@@ -8,10 +8,14 @@ namespace _04GestionDeAnimales
 {
     abstract internal class Animal
     {
-        abstract public String Nombre { get; set; }
-        abstract public Edad Edad { get; set; }
+        public String Nombre { get; set; }
+        public Edad Edad { get; set; }
 
-        abstract public void emitirSonido();
+        abstract public String emitirSonido();
 
+        public virtual String informacion()
+        {
+            return ", nombre: " + Nombre + ", edad: " + Edad + ", sonido: " + emitirSonido();
+        }
     }
 }
